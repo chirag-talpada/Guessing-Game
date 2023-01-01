@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    </div>
+    <header>
+        <div>
+            <button class="btn" onclick="restart()">Restart!</button>
+            <span id="rangelabel">
+                &lt; between 1 and 20 &gt;
+            </span>
+        </div>
+        <div>
+            <button class="rangebtn" onclick="changeRange()">Change Range</button>
+        </div>
+    </header>
+    <section class="top_title">
+        <div class="title">Guess The Number!</div>
+    </section>
+    <section class="top_number">
+        <div id="numberTitle">?</div>
+    </section>
+    <section class="score_panel">
+        <div class="container">
+            <div class="inputside">
+                <div>
+                    <input type="number" id="txtnum" max="20" min="1">
+                </div>
+                <div style="text-align: center;margin-top: 15px;">
+                    <button class="check btn">check!</button>
+                </div>
+            </div>
+            <div class="displayside">
+                <p class="msg">Start guessing...</p>
+                <p id="playerScore">🤠 Score : 20</p>
+                <p id="highscore">🏆 Highscore : 0</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy;&nbsp;&nbsp;chiragtalpada 2023
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

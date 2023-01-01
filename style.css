@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  cursor: url(cursor.png), auto;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+header {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+.btn {
+  padding: 15px 5px 15px 10px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border: 2px solid white;
+  margin-bottom: 5px;
+}
+
+.rangebtn {
+  padding: 5px 19px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  border: 2px solid white;
+}
+
+.btn:hover,
+.rangebtn:hover {
+  background-color: black;
+  color: white;
+}
+
+header span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+}
+
+.top_title {
+  margin-top: 40px;
+  border-bottom: 6px solid white;
+  padding-bottom: 50px;
+}
+
+.top_number {
+  position: relative;
+  text-align: center;
+}
+
+#numberTitle {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  display: inline;
+  font-size: 33px;
+}
+
+.score_panel {
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#txtnum {
+  border: 1px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  width: 190px;
+  height: 150px;
+  font-size: 40px;
+  text-align: center;
+}
+
+*::selection {
+  background: none;
+}
+
+.displayside p {
+  margin-top: 20px;
+}
+
+.displayside p:first-child {
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  height: 40px;
+  padding: 10px 30px;
+  margin-top: 90px;
+}
+
+.addBlink {
+  animation: blink 1s infinite ease-in-out;
+}
+
+.won {
+  animation: greenback 0.7s infinite ease-in-out;
+}
+
+.lost {
+  animation: redback 0.7s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes greenback {
+  0% {
+    background-color: green;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes redback {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    padding: 10px 0px 10px 5px;
+    font-size: 13px;
+  }
+  span {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .btn {
+    padding: 10px 0px 10px 5px;
+    font-size: 10px;
+  }
+  span {
+    font-size: 7px;
+  }
+  .title {
+    font-size: 14px;
+  }
+}
