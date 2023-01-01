@@ -20,7 +20,7 @@ document.querySelector(".check").addEventListener("click", function () {
   clearTimeout(timer);
   clearOut();
 
-  if (!val >= 1 && val <= upperRange) {
+  if (!(val >= 1 && val <= upperRange)) {
     msg.innerText = "🙄 Opps, Invalid Number";
     msg.classList.add("addBlink");
     return;
