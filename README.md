@@ -2,7 +2,7 @@
 Number Guessing game using vanilla Javascript
 
 ## How do I play? 🤔
-It is a number guessing game, so initially, you get 20 as an initial score which will be followed by the below rules.
+It is a number guessing game, so initially, you get 20 as an initial score which will be followed by the below statements.
 
 ## Rules 📝
 - In the beginning, your score will be 20.
