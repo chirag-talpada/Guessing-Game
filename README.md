@@ -12,4 +12,4 @@ It is a number guessing game, so initially, you get 20 as an initial score which
 - Initially, your highest score will be considered whenever you guess the correct number first time.
 - You can change your "number range" by clicking the change range button. Your lower bound value is set to 1, So you need to select the upper bound value only.
 
-live : https://chirag-talpada.github.io/Guessing-Game/
+**live : https://chirag-talpada.github.io/Guessing-Game/**
