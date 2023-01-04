@@ -1,10 +1,10 @@
-# Number Guessing Game
+# Number Guessing Game 🎮
 Number Guessing game using vanilla Javascript
 
-## How do I play?
+## How do I play? 🤔
 It is a number guessing game, so initially, you get 20 as an initial score which will be followed by the below rules.
 
-## Rules
+## Rules 📝
 - In the beginning, your score will be 20.
 - Your score will be decreased by 1 whenever you guess the wrong number.
 - Your score will be increased by 1 whenever you guess the correct number.
